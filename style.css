@@ -202,6 +202,16 @@ body {
   background-color: #3751d3;
 }
 
+/* icon styling nav bar */
+.icon {
+    background-color: inherit;
+    border: none;
+    padding: 1p;
+    padding: 0.1px;
+    margin-left: 20px;
+    padding-left: 4px;
+}
+
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
