@@ -320,20 +320,37 @@ body {
 
 /* Here I found this is the child element that I want to target. Targeting the container (products) didn't affect the image child element */
 
-.products>a {
+/* .products>a {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 60%;
 }
-
+*/
 .products>a>img {
+    width: 336px;
+    height: 336px;
+
+} 
+
+.product__section-two {
+    margin: auto;
+    padding: 45px;
+}
+
+/* attempts */
+.container__for-products {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    width: 40%;
-    border: 10px;
-    border-style: solid;
-    border-color: rgb(3, 29, 90);
+    gap: 1rem;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+
+.products {
+    max-width: 560px;
 }
