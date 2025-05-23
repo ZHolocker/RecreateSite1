@@ -319,18 +319,21 @@ body {
 
 
 /* Here I found this is the child element that I want to target. Targeting the container (products) didn't affect the image child element */
-.products>a>img {
-    /* display: flex;
-    justify-content: center;
-    flex-wrap: wrap; */
-    width: 40%;
-    border: 10px;
-    border-style: solid;
-    border-color: rgb(3, 29, 90);
-}
 
 .products>a {
     display: flex;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
+    width: 60%;
+}
+
+.products>a>img {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 40%;
+    border: 10px;
+    border-style: solid;
+    border-color: rgb(3, 29, 90);
 }
