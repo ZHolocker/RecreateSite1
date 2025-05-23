@@ -321,24 +321,16 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 1200px;
-    margin-left: auto;
+    max-width: 100px;
     border: 20px;
     border-style: solid;
     border-color: rgb(119, 2, 130);
     
 }
-
-.products{
+/* Here I found this is the child element that I want to target. Targeting the container (products) didn't affect the image child element */
+.products>img {
     width: 48%;
     border: 10px;
     border-style: solid;
     border-color: rgb(3, 29, 90);
-
-}
-
-.product {
-    border: 50px;
-    border-style: solid;
-    border-color: red;;
 }
