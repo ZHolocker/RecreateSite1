@@ -12,16 +12,24 @@ body {
 /* header */
 .header {
     width: 100%;
+    position: fixed;
     z-index: 2;
     background-color: white;
     padding: 10px 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 30px;
+    background-color: midnightblue;
+    color: white;
+    width: 100%;
+    margin-left: 100px;
     
 }
 
@@ -65,7 +73,7 @@ body {
 
 .header__nav-link {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .header__nav-link:hover {
@@ -182,7 +190,7 @@ body {
   font-size: 16px;
   border: none;
   outline: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -329,8 +337,8 @@ body {
 }
 */
 .products>a>img {
-    width: 336px;
-    height: 336px;
+    width: 336.66px;
+    height: 336.66px;
 
 } 
 
