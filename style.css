@@ -407,6 +407,11 @@ body {
 .footer {
     background-color: rgb(26,36,86);
     display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1re;
+    font-size: 11px;
+    gap: 4rem;
 
 }
 
@@ -414,4 +419,41 @@ body {
 .footer__container>* {
     color: #c6a3a1;
     list-style: none;
+    margin-right: 10px;
+}
+
+/* social media */
+
+.socialMedia__icons {
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    width: 345px;
+    padding-top: 5px;
+}
+
+.socialMedia__icons>i{
+    align-items: center;
+    background-color: #efc2b3;
+    border-radius: 50%;
+    display: inline-flex;
+    height: 1em;
+    padding: .5em;
+    text-align: center;
+    width: 1em;
+}
+
+
+.copyright__container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.submit {
+    border-radius: 50rem !important;
+    opacity: .65;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
