@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'work sans', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -305,48 +305,9 @@ body {
   transform: scale(1.3); /* Increases size by 30% (~1em extra visually) */
 }
 
-/* first section of products */
-.container__for-products1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-
-.products1>a>img {
-    width: 400px;
-    height: 337px;
-}
-.products1 {
-    max-width: 397px;
-}
-
-/* product section */
-
-.fifth__product-top{
-    display:flex;
-    justify-content: center;
-}
-
-/* fifth product's image */
-.products2 {
-    justify-content: center;
-}
-
-.products2-img{
-    width: 837px;
-    height: 452px;
-}
 
 
-.product__section-one-first-img {
-    max-width: 550px;
-    max-height: 400px;
-}
-
+/* General container styling across page */
 .container{
     display: flex;
     width: 837px;
@@ -368,32 +329,7 @@ body {
 
 /* product section 2 styling */
 
-.products>a>img {
-    width: 337px;
-    height: 337px;
 
-} 
-
-.product__section-two {
-    margin: auto;
-    padding: 45px;
-}
-
-/* attempts */
-.container__for-products {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    max-width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-}
-
-
-.products {
-    max-width: 397px;
-}
 
 /* style words under images */
 .product_words {
