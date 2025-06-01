@@ -27,14 +27,13 @@ body {
     position: fixed;
     top: 30px;
     background-color:rgb(26,36,86);
-    color: white;
-    width: 100%;
-    margin-left: 100px;
+    color: #e0b7ac;
+    width: 98%;
+    margin-left: 1%;
     
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -52,39 +51,106 @@ body {
 
 /* nav bar */
 
-.header__nav {
-    display: flex;
-    align-items: center;
-    color: white;
+.nav__bar-logo svg {
+    height: 33px;
 }
 
-.header__nav-list {
+.nav__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__bar-list {
+    display: flex;
+    align-items: center;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 1em;
 }
 
-.header__nav-item {
-    display: inline-block;
-    margin-left: 20px;
+.nav__bar-logo{
+    padding: 8px;
+
 }
-
-
 
 .header__nav-link {
+    color: #e0b7ac;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    font-size: 81%; /*trying percentage to make it responsive */
+    text-transform: capitalize;
 }
 
-.header__nav-link:hover {
-    text-decoration: underline;
+.nav__bar-usd-dropbtn{
+    color: #e0b7ac;
+    background-color: inherit;
+    border: none;
+    align-items: center;
+    margin-left: 8px;
+    font-size: 81%;
+    margin-top: 1%;
+}
+
+.nav__bar-usd-dropdown-content {
+    display: none;
+}
+
+.nav__bar-list {
+    padding: 0;
+    margin: 0;
+}
+
+/* shopping bag icon */
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: large;
+    color: #e0b7ac;
 }
 
 
 
+/* section */
 
+.section__container-wraper{
+    background-image: url("./images/top_image.webp");
+    background-size: cover;
+    background-position: center;
+    height: 95vh; /*changed to 95 to match width of it's container. 100 was overflowing it's container */
+    display: relative;
+    /* justify-content: center;
+    align-items: center; */
+    color: #e0b7ac;
+}
+.section__container-wraper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.section__container-text-wraper{
+    color: #e0b7ac
+}
+
+
+/* arrow container styling */
+.section__container-arrow__box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32%; /*used percentage here to make it responsive */
+}
+
+#arrow:hover {
+    transform: scale(1.25);
+    transition: transform .5s ease 1s, opacity .25s ease;
+}
 
 
 /* footer */
@@ -136,11 +202,11 @@ body {
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 81%;
   border: none;
   outline: none;
-  color: rgb(255, 255, 255);
-  padding: 14px 16px;
+  color: #e0b7ac;
+  padding: 8px 6px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
