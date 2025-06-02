@@ -155,6 +155,10 @@ body {
     padding-top: 32%; /*used percentage here to make it responsive */
 }
 
+.section__container-text-wraper svg{
+    padding-top: 46%;
+}
+
 #arrow:hover {
     transform: scale(1.25);
     transition: transform .5s ease 1s, opacity .25s ease;
@@ -183,7 +187,34 @@ body {
 
 .product__section-createOwn{
     display: flex;
+    background-image: url(./images/createOwn.webp);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+    flex-direction: column;
+    align-items: center;
+    color: #1a2456;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: prompt, sans-serif;
 }
+
+.product__section-createOwn-header{
+    text-transform: uppercase;
+    font-size: x-large;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.product__section-createOwn-p{
+    margin-bottom: 1.2rem;
+    margin-top: 0;
+    font-size: large;
+    font-size: 1.25rem;
+    font-weight: 100;
+    color: #2b3461;
+}
+
 
 .product2-anchor{
     display: flex;
@@ -195,7 +226,16 @@ body {
     width: 93%;
 }
 
+.finalproduct{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    padding-left: 4%;
+}
 
+.product_bottomp{
+    padding-left: 4%;
+}
 
 
 
