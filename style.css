@@ -184,6 +184,12 @@ body {
     height: 300px;
 }
 
+.product_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 .product__section-createOwn{
     display: flex;
@@ -213,6 +219,7 @@ body {
     font-size: 1.25rem;
     font-weight: 100;
     color: #2b3461;
+    padding-left: 23%;
 }
 
 
@@ -233,7 +240,7 @@ body {
     padding-left: 4%;
 }
 
-.product_bottomp{
+.product_bottomp-finalp{
     padding-left: 4%;
 }
 
