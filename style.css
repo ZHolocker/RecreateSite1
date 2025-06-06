@@ -244,6 +244,39 @@ body {
     padding-left: 4%;
 }
 
+/* second product section */
+
+.product__wrapper product2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.product__container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    padding-top: 45px;
+}
+
+.p2 {
+    height: 300px;
+    width: 337px;
+}
 
 
 /* footer */
