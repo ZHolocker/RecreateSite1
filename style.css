@@ -274,6 +274,7 @@ product{
 }
 
 .product_words{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
@@ -282,6 +283,7 @@ product{
     font-family: prompt, sans-serif;
     line-height: 1.2;
     color: #1a2456 !important;
+    font-size: 1.25rem
 }
 
 .product__words-header{
@@ -294,6 +296,16 @@ product{
     height: 300px;
     width: 337px;
 }
+
+.product__words-button {
+    position: absolute;
+    right: -1%;
+    width: 23%;
+    border-radius: 12px;
+    background-color: darkblue;
+    color: white;
+}
+
 
 
 /* footer */
