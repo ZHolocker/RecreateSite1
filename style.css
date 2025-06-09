@@ -281,15 +281,15 @@ product{
     justify-content: space-between;
     align-items: center;
     font-family: prompt, sans-serif;
+    font-size: smaller;
     line-height: 1.2;
     color: #1a2456 !important;
-    font-size: 1.25rem
 }
 
 .product__words-header{
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    font-size: 18.75px;
+    font-size: smaller;
 }
 
 .p2 {
@@ -304,8 +304,20 @@ product{
     border-radius: 12px;
     background-color: darkblue;
     color: white;
+    opacity: 0;
+    cursor: pointer;
+    transition: .8s;
 }
 
+.product__words-button:hover {
+    display: block;
+    opacity: 1;
+}
+
+
+/* .product__words-p:hover {
+    opacity: 0;
+} */
 
 
 /* footer */
